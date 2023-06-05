@@ -1,0 +1,88 @@
+#container{
+    /* border: 1px solid red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+ background-image: url("https://wallpaperaccess.com/full/4336160.jpg");
+ background-repeat: no-repeat;
+background-size: cover;
+}
+ 
+
+h2{
+    text-align: center;
+}
+
+.Login-form-Box{
+    /* border: 1px solid green; */
+    width: 50%;
+    height: 53%;
+    margin: auto;
+    display: grid;
+justify-content: center;
+align-items: center;
+background-color: rgba(168, 170, 187, 0.334);
+padding: 20px;
+border-radius: 20px;
+box-shadow: rgba(248, 248, 248, 0.665) 0px 20px 30px -10px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+   margin-bottom: 10px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    color: white;
+    border: transparent;
+    border-bottom: 2px solid rgb(47, 172, 255);
+    padding: 10px;
+    background-color: rgba(34, 34, 34, 0.661);
+}
+
+#btn{
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    border: transparent;
+}
+
+#btn:hover{
+background-color: rgb(20, 21, 20);
+cursor: pointer;
+color: white;
+border-radius: 30px;
+}
+
+#reg{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#sign{
+    color: aliceblue;
+}
+
+ 
+@media all and (min-width:420px) and (max-width:739px){
+    .Login-form-Box{
+        width: 70%;
+    }
+}
+
+@media all and (min-width:220px) and (max-width:420px){
+    .Login-form-Box{
+        width: 80%;
+    }
+
+    input{
+        width: 250px;
+        height: 30px;
+    }
+}
